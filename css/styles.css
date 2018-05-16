@@ -1,4 +1,15 @@
-h1 {
+#map {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.countdown {
     text-align: center;
-    font-size: 60px;
+    font-size: 30px;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    z-index: 1000;
 }
