@@ -5,7 +5,7 @@ var tripData = [
         "country": "South Africa",
         "aug": 3,
         "duration": "August 3 - 6",
-        "icon": "../icons/city-15.svg",
+        "icon": "./icons/city-15.svg",
         "type": "Point",
         "lat": -33.932275,
         "lon": 18.4074013
@@ -16,7 +16,7 @@ var tripData = [
         "country": "South Africa",
         "aug": 4,
         "duration": "August 3 - 6",
-        "icon": "../icons/city-15.svg",
+        "icon": "./icons/city-15.svg",
         "type": "Point",
         "lat": -33.932275,
         "lon": 18.4074013
@@ -27,7 +27,7 @@ var tripData = [
         "country": "South Africa",
         "aug": 5,
         "duration": "August 3 - 6",
-        "icon": "../icons/city-15.svg",
+        "icon": "./icons/city-15.svg",
         "type": "Point",
         "lat": -33.932275,
         "lon": 18.4074013
@@ -38,7 +38,7 @@ var tripData = [
         "country": "Namibia",
         "aug": 6,
         "duration": "August 6 - 9",
-        "icon": "../icons/town-15.svg",
+        "icon": "./icons/town-15.svg",
         "type": "Point",
         "lat": -22.5698432,
         "lon": 17.0758172
@@ -49,7 +49,7 @@ var tripData = [
         "country": "Namibia",
         "aug": 7,
         "duration": "August 6 - 9",
-        "icon": "../icons/town-15.svg",
+        "icon": "./icons/town-15.svg",
         "type": "Point",
         "lat": -22.5698432,
         "lon": 17.0758172
@@ -60,7 +60,7 @@ var tripData = [
         "country": "Namibia",
         "aug": 8,
         "duration": "August 6 - 9",
-        "icon": "../icons/town-15.svg",
+        "icon": "./icons/town-15.svg",
         "type": "Point",
         "lat": -22.5698432,
         "lon": 17.0758172
@@ -71,7 +71,7 @@ var tripData = [
         "country": "Namibia",
         "aug": 9,
         "duration": "August 9 - 10",
-        "icon": "../icons/farm-15.svg",
+        "icon": "./icons/farm-15.svg",
         "type": "Point",
         "lat": -24.177695,
         "lon": 15.9798687
@@ -82,7 +82,7 @@ var tripData = [
         "country": "Namibia",
         "aug": 10,
         "duration": "August 10 - 11",
-        "icon": "../icons/shelter-15.svg",
+        "icon": "./icons/shelter-15.svg",
         "type": "Point",
         "lat": -24.1024524,
         "lon": 15.5545123
@@ -93,7 +93,7 @@ var tripData = [
         "country": "Namibia",
         "aug": 11,
         "duration": "August 11 - 12",
-        "icon": "../icons/town-15.svg",
+        "icon": "./icons/town-15.svg",
         "type": "Point",
         "lat": -22.6377331,
         "lon": 14.5273671
@@ -104,7 +104,7 @@ var tripData = [
         "country": "Namibia",
         "aug": 12,
         "duration": "August 12 - 13",
-        "icon": "../icons/campsite-15.svg",
+        "icon": "./icons/campsite-15.svg",
         "type": "Point",
         "lat": -20.7263783,
         "lon": 14.6801908
@@ -115,7 +115,7 @@ var tripData = [
         "country": "Namibia",
         "aug": 13,
         "duration": "August 13 - 14",
-        "icon": "../icons/shelter-15.svg",
+        "icon": "./icons/shelter-15.svg",
         "type": "Point",
         "lat": -20.3924248,
         "lon": 15.4225338
@@ -126,7 +126,7 @@ var tripData = [
         "country": "Namibia",
         "aug": 14,
         "duration": "August 6 - 9",
-        "icon": "../icons/town-15.svg",
+        "icon": "./icons/town-15.svg",
         "type": "Point",
         "lat": -22.5698432,
         "lon": 17.0758172
@@ -137,7 +137,7 @@ var tripData = [
         "country": "South Africa",
         "aug": 15,
         "duration": "August 15 - 17",
-        "icon": "../icons/natural-15.svg",
+        "icon": "./icons/natural-15.svg",
         "type": "Point",
         "lat": -33.8951361,
         "lon": 19.101916
@@ -148,7 +148,7 @@ var tripData = [
         "country": "South Africa",
         "aug": 16,
         "duration": "August 15 - 17",
-        "icon": "../icons/natural-15.svg",
+        "icon": "./icons/natural-15.svg",
         "type": "Point",
         "lat": -33.8951361,
         "lon": 19.101916
@@ -159,7 +159,7 @@ var tripData = [
         "country": "South Africa",
         "aug": 17,
         "duration": "August 15 - 17",
-        "icon": "../icons/natural-15.svg",
+        "icon": "./icons/natural-15.svg",
         "type": "Point",
         "lat": -33.8951361,
         "lon": 19.101916
