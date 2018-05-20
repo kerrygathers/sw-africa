@@ -1,15 +1,94 @@
-#map {
+body {
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+.dunes {
     position: absolute;
-    top: 0;
-    bottom: 0;
+    background-image: url('../images/dark-desert.jpg');
+    height: 110px;
+    color: #fff;
     width: 100%;
 }
 
+td {
+    text-align: left;
+    vertical-align: middle;
+}
+
+.flag {
+    width: 72px;
+    padding-left: 11px;
+}
+
+.nam-flag {
+    border-radius: 3px;
+    border: 2px solid #fff;
+    height: 37px;
+    margin-top: 8px;
+}
+
+.sa-flag {
+    border-radius: 3px;
+    border: 2px solid #fff;
+    height: 37px;
+    margin-bottom: 5px;
+}
+
+.hk {
+    font-style: italic;
+    font-weight: 500;
+    padding-left: 8px;
+    font-size: 28px;
+    padding-top: 8px;
+}
+
+.swa {
+    padding-left: 8px;
+    font-size: 45px;
+    font-weight: 700;
+    padding-bottom: 1px;
+}
+
 .countdown {
-    text-align: center;
-    font-size: 30px;
+    font-size: 18px;
+    width: 250px;
     position: absolute;
-    top: 8px;
-    right: 8px;
+    top: 114px;
+    right: 0px;
     z-index: 1000;
+    border-radius: 0px 0px 0px 5px;
+    background color: #fbf9f3;
+}
+
+#countdown-app {
+    font-weight: 700;
+}
+
+#map {
+    position: absolute;
+    top: 114px;
+    bottom: 0;
+    width: 100%;
+    z-index: 600;
+}
+
+#slider {
+    position: absolute;
+    background-color: #fbf9f3;
+    bottom: 1px;
+    left: 1px;
+    z-index: 800;
+}
+
+#day-legend {
+    font-family: 'Alegreya Sans', sans-serif;
+    position: absolute;
+    bottom: 50px;
+    left: 1px;
+    width: 300px;
+    z-index: 1000;
+}
+
+.current-day {
+    color: yellow;
 }

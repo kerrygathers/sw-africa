@@ -1,9 +1,16 @@
-﻿SITE,PLACE,COUNTRY,LAT,LON,DAY,ARRIVE
-22 Union Street,Cape Town,South Africa,-33.932275,18.4074013,1,8/3/18
-Ashley and Sam's,Windhoek,Namibia,-22.5698432,17.0758172,4,8/6/18
-Dune Star Camp,Namib Desert,Namibia,-24.1024524,15.5545123,8,8/10/18
-Weltevrede Guest Farm,Sossusvlei,Namibia,,,7,8/9/18
-Swakopmund,Swakopmund,Namibia,,,,
-Madisa Camp,,,,,,
-Vingerklip Lodge,,,,,,
-La Provence Cottages,Franschhoek,South Africa,-33.8951361,19.101916,13,8/15/18
+﻿site,place,country,aug,duration,icon,type,lat,lon
+Kloof Street,Cape Town,South Africa,3,August 3 - 6,../icons/city-15.svg,Point,-33.932275,18.4074013
+Kloof Street,Cape Town,South Africa,4,August 3 - 6,../icons/city-15.svg,Point,-33.932275,18.4074013
+Kloof Street,Cape Town,South Africa,5,August 3 - 6,../icons/city-15.svg,Point,-33.932275,18.4074013
+Ashley & Sam's,Windhoek,Namibia,6,August 6 - 9,../icons/town-15.svg,Point,-22.5698432,17.0758172
+Ashley & Sam's,Windhoek,Namibia,7,August 6 - 9,../icons/town-15.svg,Point,-22.5698432,17.0758172
+Ashley & Sam's,Windhoek,Namibia,8,August 6 - 9,../icons/town-15.svg,Point,-22.5698432,17.0758172
+Weltevrede Guest Farm,Sossusvlei,Namibia,9,August 9 - 10,../icons/farm-15.svg,Point,-24.177695,15.9798687
+Dune Star Camp,Namib Desert,Namibia,10,August 10 - 11,../icons/shelter-15.svg,Point,-24.1024524,15.5545123
+Swakopmund,Erongo,Namibia,11,August 11 - 12,../icons/town-15.svg,Point,-22.6377331,14.5273671
+Madisa Camp,Dorob,Namibia,12,August 12 - 13,../icons/campsite-15.svg,Point,-20.7263783,14.6801908
+Vingerklip Lodge,Vingerklip,Namibia,13,August 13 - 14,../icons/shelter-15.svg,Point,-20.3924248,15.4225338
+Ashley & Sam's,Windhoek,Namibia,14,August 6 - 9,../icons/town-15.svg,Point,-22.5698432,17.0758172
+La Provence Cottages,Franschhoek,South Africa,15,August 15 - 17,../icons/natural-15.svg,Point,-33.8951361,19.101916
+La Provence Cottages,Franschhoek,South Africa,16,August 15 - 17,../icons/natural-15.svg,Point,-33.8951361,19.101916
+La Provence Cottages,Franschhoek,South Africa,17,August 15 - 17,../icons/natural-15.svg,Point,-33.8951361,19.101916

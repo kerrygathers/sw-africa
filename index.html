@@ -9,19 +9,49 @@
     <link href='https://api.mapbox.com/mapbox-assembly/v0.21.2/assembly.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.1/dist/leaflet.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/esri-leaflet-geocoder/2.2.9/esri-leaflet-geocoder.css" />
-    <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans:400,500i,700" rel="stylesheet">
     <link href='css/styles.css' rel='stylesheet' />
 
 </head>
 
 <body>
 
+    <table class='dunes'>
+        <tr>
+            <td class='flag'><img class='nam-flag' src="images/namibia-flag.png" alt="Namibia flag"></td>
+            <td class='hk'>Hallie &amp; Kerry in</td>
+        </tr>
+        <tr>
+            <td class='flag'><img class='sa-flag' src="images/sa-flag.png" alt="Namibia flag"></td>
+            <td class='swa'>Southwest Africa</td>
+        </tr>
+    </table>
+
     <div class='flex-parent viewport-full relative scroll-hidden'>
 
         <div id="map"></div>
 
-        <div class='countdown bg-white round px12 py12'>
-            <h1 id="demo"></h1>
+        <div class='countdown bg-white px12 py6'>
+            <table>
+                <td>
+                    <h3>Wheels up in...&nbsp;&nbsp;</h3>
+                </td>
+                <td>
+                    <h3 id='countdown-app'></h3>
+                </td>
+            </table>
+        </div>
+
+        <!-- ui slider -->
+        <div id='slider' class='range w300 bg-white round px12'>
+            <input type='range' min="3" , max="17" , value="3" , step="1" />
+        </div>
+
+        <!-- day legend -->
+        <div id='day-legend' class='bg-white round px12 py12'>
+            <p class='day txt-h5'>August <span></span></p>
+            <p class='site txt-h5'><span></span></p>
+            <p class='place-country txt-h5'><span></span></p>
         </div>
 
     </div>
@@ -29,7 +59,11 @@
     <script async defer src="https://api.mapbox.com/mapbox-assembly/v0.21.2/assembly.js"></script>
     <script src="https://unpkg.com/leaflet@1.3.1/dist/leaflet.js"></script>
     <script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-omnivore/v0.3.1/leaflet-omnivore.min.js'></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/4.3.6/papaparse.min.js"></script>
+    <script src="https://d3js.org/d3-dsv.v1.min.js"></script>
+    <script src="https://d3js.org/d3-fetch.v1.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src='data/itinerary.json'></script>
     <script src='js/app.js'></script>
 
 </body>
