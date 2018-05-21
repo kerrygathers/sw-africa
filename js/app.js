@@ -2,7 +2,7 @@
 
     var map = L.map('map', {
         zoomSnap: .1,
-        center: [-26, 21],
+        center: [-27.5, 16.5],
         zoom: 5.4,
         minZoom: 4
     });
@@ -34,7 +34,7 @@
                 var icon = L.icon({
                     iconUrl: feature.properties.icon,
                     iconSize: [20, 20],
-                    popupAnchor: [0, -22],
+                    popupAnchor: [-22, -22],
                     className: "icon"
                 });
 
