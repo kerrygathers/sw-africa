@@ -16,7 +16,6 @@
         accessToken: accessToken
     }).addTo(map);
 
-
     omnivore.csv('data/itinerary.csv')
         .on('ready', function (e) {
             drawMap(e.target.toGeoJSON());
@@ -99,17 +98,45 @@
                     currentPlace = (tripData[this.value - 3].place),
                     currentCountry = (tripData[this.value - 3].country);
 
-                /*
-                    var tripData = Papa.parse("../data/itinerary.csv", {
-                        download: true,
-                        header: true,
-                        dynamicTyping: true,
-                        complete: function (results) {
-                            console.log(results);
-                        }
-
+                omnivore.csv('data/itinerary.csv')
+                    .on('ready', function (e) {
+                        drawMap(e.target.toGeoJSON());
+                    })
+                    .on('error', function (e) {
+                        console.log(e.error[0].message);
                     });
-                    */
+
+                function drawMap(tripStops, currentDay) {
+
+                    var options = {
+                        pointToLayer: function (feature, latlng) {
+
+                            var icon = L.icon({
+                                iconUrl: feature.properties.icona,
+                                iconSize: [24, 24],
+                                popupAnchor: [-22, -22],
+                                className: "icon"
+                            });
+
+                            return L.marker(latlng, {
+                                icon: icon
+                            });
+                        },
+                        filter: function (feature) {
+                            if (feature.properties.aug == currentDay) {
+                                return feature
+                            }
+                        },
+                        onEachFeature: function (feature, layer) {
+
+                            layer.bindTooltip("<h3>" + feature.properties.site + "</h3>" +
+                                "<p>" + feature.properties.country + "</p>");
+                        }
+                    }
+
+                    var tripStops = L.geoJson(tripStops, options).addTo(map);
+
+                }
 
                 getDay(tripStops, currentDay, currentSite, currentPlace, currentCountry);
 
