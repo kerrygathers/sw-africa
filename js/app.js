@@ -32,7 +32,7 @@
             pointToLayer: function (feature, latlng) {
 
                 var icon = L.icon({
-                    iconUrl: feature.properties.icon_latent,
+                    iconUrl: feature.properties.iconl,
                     iconSize: [20, 20],
                     popupAnchor: [-22, -22],
                     className: "icon"

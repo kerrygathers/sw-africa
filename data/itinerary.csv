@@ -1,4 +1,4 @@
-﻿site,place,country,aug,duration,icon_latent,icon_active,type,lat,lon
+﻿site,place,country,aug,duration,iconl,icona,type,lat,lon
 Kloof Street,Cape Town,South Africa,3,August 3 - 6,./icons-latent/city-15.svg,./icons-active/city-15.svg,Point,-33.932275,18.4074013
 Kloof Street,Cape Town,South Africa,4,August 3 - 6,./icons-latent/city-15.svg,./icons-active/city-15.svg,Point,-33.932275,18.4074013
 Kloof Street,Cape Town,South Africa,5,August 3 - 6,./icons-latent/city-15.svg,./icons-active/city-15.svg,Point,-33.932275,18.4074013
