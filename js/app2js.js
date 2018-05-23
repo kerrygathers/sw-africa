@@ -101,15 +101,15 @@
                     currentPlace = (tripData[this.value - 3].place),
                     currentCountry = (tripData[this.value - 3].country);
 
+                function activeIcon(activeStop, currentDay) {
 
-                function activeIcon(activeIcon, currentDay) {
+                    L.geoJSON(activeStop, {
 
-                    var activeIcon = activeStop4;
-
-                    console.log(activeIcon);
-
-                    L.geoJSON(activeIcon, {
-
+                        filter: function (feature, layer) {
+                            if (feature.properties.aug == currentDay) {
+                                return feature;
+                            }
+                        },
                         pointToLayer: function (feature, latlng) {
                             var icon = L.icon({
                                 iconUrl: feature.properties.icona,
@@ -123,10 +123,15 @@
                             });
                         }
                     }).addTo(map);
+                }
+
+                function changeActive(activeStop, currentDay) {
 
                 }
 
-                activeIcon(activeIcon, currentDay);
+                activeIcon(activeStop, currentDay);
+
+                changeActive(activeStop, currentDay);
 
                 getDay(tripStops, currentDay, currentSite, currentPlace, currentCountry);
 
