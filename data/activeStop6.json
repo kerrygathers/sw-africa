@@ -1,0 +1,20 @@
+{
+    "type": "FeatureCollection",
+    "features": [{
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [17.0758172, -22.5698432]
+        },
+        "properties": {
+            "site": "Ashley & Sam's",
+            "place": "Windhoek",
+            "country": "Namibia",
+            "aug": "6",
+            "duration": "August 6 - 9",
+            "iconl": "./icons-latent/town-15.svg",
+            "icona": "./icons-active/town-15.svg",
+            "type": "Point"
+        }
+    }]
+}

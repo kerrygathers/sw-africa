@@ -37,13 +37,13 @@ td {
 .hk {
     font-style: italic;
     font-weight: 500;
-    padding-left: 8px;
+    padding-left: 4px;
     font-size: 28px;
     padding-top: 8px;
 }
 
 .swa {
-    padding-left: 8px;
+    padding-left: 4px;
     font-size: 45px;
     font-weight: 700;
     padding-bottom: 1px;
@@ -51,7 +51,7 @@ td {
 
 .countdown {
     font-size: 18px;
-    width: 250px;
+    width: 253px;
     position: absolute;
     top: 114px;
     right: 0px;
