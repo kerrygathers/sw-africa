@@ -49,21 +49,6 @@ td {
     padding-bottom: 1px;
 }
 
-.countdown {
-    font-size: 18px;
-    width: 150px;
-    position: absolute;
-    top: 114px;
-    right: 0px;
-    z-index: 1000;
-    border-radius: 0px 0px 0px 5px;
-    background color: #fbf9f3;
-}
-
-#countdown-app {
-    font-weight: 700;
-}
-
 #map {
     position: absolute;
     top: 114px;
@@ -91,4 +76,25 @@ td {
 
 .current-day {
     color: yellow;
+}
+
+/* GALLERIAS */
+
+.galleria {
+    position: absolute;
+    z-index: 1000;
+    margin-left: auto;
+    margin-right: auto;
+    top: 116px;
+    width: 50%;
+    height: 75%;
+    /*display: none;*/
+}
+
+.galleria-container {
+    background-color: #fff;
+}
+
+body .galleria-lightbox-shadow {
+    background-color: #fff;
 }

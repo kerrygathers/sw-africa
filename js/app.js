@@ -31,7 +31,7 @@
             pointToLayer: function (feature, latlng) {
 
                 var icon = L.icon({
-                    iconUrl: feature.properties.iconl,
+                    iconUrl: /*feature.properties.iconl*/ "./icons/site.svg",
                     iconSize: [20, 20],
                     popupAnchor: [-22, -22],
                     className: "icon"
@@ -119,7 +119,7 @@
                 */
 
                 var activeIcon = L.icon({
-                    iconUrl: tripData[this.value - 3].icona,
+                    iconUrl: "./icons/site-active.svg",
                     iconSize: [24, 24],
                     popupAnchor: [-22, -22],
                     className: "icon"
@@ -334,5 +334,16 @@
         dayLegend.addTo(map);
 
     }
+
+    (function () {
+        Galleria.loadTheme("https://cdnjs.cloudflare.com/ajax/libs/galleria/1.5.7/themes/classic/galleria.classic.min.js");
+        Galleria.configure({
+            transition: 'fade',
+            imageCrop: true,
+            lightbox: true,
+            overlayBackground: '#fff'
+        });
+        Galleria.run('#galleria-soss');
+    }());
 
 })();
