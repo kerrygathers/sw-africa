@@ -57,42 +57,50 @@ td {
     z-index: 600;
 }
 
-#slider {
+.map-btn {
     position: absolute;
-    background-color: #fbf9f3;
-    bottom: 1px;
-    left: 1px;
-    z-index: 800;
+    left: 10px;
+    top: 200px;
+    width: 28%;
+    z-index: 1000;
+    display: none;
 }
 
-#day-legend {
+/* SITE MEDIA DIVS */
+
+.site-media {
+    display: none;
+}
+
+
+/* INFO MODALS */
+
+.info-modal {
     font-family: 'Alegreya Sans', sans-serif;
     position: absolute;
-    bottom: 50px;
-    left: 1px;
-    width: 300px;
+    top: 250px;
+    left: 10px;
+    width: 28%;
     z-index: 1000;
 }
 
-.current-day {
-    color: yellow;
-}
 
 /* GALLERIAS */
 
 .galleria {
     position: absolute;
     z-index: 1000;
-    margin-left: auto;
+    margin-left: 31%;
     margin-right: auto;
-    top: 116px;
-    width: 50%;
+    top: 130px;
+    width: 65%;
     height: 75%;
     /*display: none;*/
 }
 
 .galleria-container {
     background-color: #fff;
+    border-radius: 4px;
 }
 
 body .galleria-lightbox-shadow {
