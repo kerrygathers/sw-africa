@@ -1,4 +1,13 @@
+.mapbox-logo,
+.leaflet-control-attribution {
+    display: none;
+}
+
 body {
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+p {
     font-family: 'Alegreya Sans', sans-serif;
 }
 
@@ -58,12 +67,20 @@ td {
 }
 
 .map-btn {
+    background-color: #003580;
     position: absolute;
     left: 10px;
-    top: 200px;
+    top: 130px;
     width: 28%;
     z-index: 1000;
     display: none;
+}
+
+/* TOOLTIP */
+
+.leaflet-tooltip {
+    font-family: 'Alegreya Sans', sans-serif;
+    border-radius: 4px;
 }
 
 /* SITE MEDIA DIVS */
@@ -78,22 +95,36 @@ td {
 .info-modal {
     font-family: 'Alegreya Sans', sans-serif;
     position: absolute;
-    top: 250px;
+    top: 176px;
     left: 10px;
     width: 28%;
     z-index: 1000;
 }
 
+.site-title {
+    font-size: 38px;
+    font-weight: bold;
+    padding: 7px 0;
+}
+
+.site-subtitle {
+    font-size: 20px;
+    padding: 7px 0;
+}
+
+.site-body {
+    padding: 10px 0 7px 0;
+}
 
 /* GALLERIAS */
 
 .galleria {
     position: absolute;
     z-index: 1000;
-    margin-left: 31%;
+    margin-left: 30%;
     margin-right: auto;
     top: 130px;
-    width: 65%;
+    width: 69%;
     height: 75%;
     /*display: none;*/
 }

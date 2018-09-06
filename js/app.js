@@ -16,6 +16,8 @@
         accessToken: accessToken
     }).addTo(map);
 
+    map.zoomControl.setPosition('bottomleft');
+
     var csvData = omnivore.csv('data/itinerary.csv')
         .on('ready', function (e) {
             drawMap(e.target.toGeoJSON());
@@ -58,13 +60,55 @@
 
         tripStops.on('click', function (e) {
 
-            $('.map-btn').show(350);
+            $('.map-btn').show(250);
 
             var props = e.layer.feature.properties;
 
-            if (props.site == 'Sossusvlei') {
-                $('.sossusvlei').show(350);
+            if (props.site == "Ashley &amp; Sam's") {
+                $('.windhoek').show(250);
             }
+
+            if (props.site == 'Kloof Street') {
+                $('.cape').show(250);
+            }
+
+            if (props.site == 'Dune Star Camp') {
+                $('.dune-star').show(250);
+            }
+
+            if (props.site == 'Swakopmund') {
+                $('.swakop').show(250);
+            }
+
+            if (props.site == 'Walvis Bay') {
+                $('.walvis').show(250);
+            }
+
+            if (props.site == 'Sossusvlei') {
+                $('.sossusvlei').show(250);
+            }
+
+            if (props.site == 'Boulders Beach') {
+                $('.boulders').show(250);
+            }
+
+            if (props.site == 'Sossusvlei') {
+                $('.sossusvlei').show(250);
+            }
+
+            if (props.site == 'Mount Etjo Lodge') {
+                $('.etjo').show(250);
+            }
+
+            if (props.site == 'La Provence Cottages') {
+                $('.fransch').show(250);
+            }
+
+            // populate HTML elements with relevant info
+            $(".site-title span:first-child").html(props.site);
+
+            // populate HTML elements with relevant info
+            $(".site-subtitle span:first-child").html(props.place + ", " + props.country);
 
             /* BACK TO MAP BUTTON */
 
@@ -85,9 +129,19 @@
             transition: 'fade',
             imageCrop: true,
             lightbox: true,
-            overlayBackground: '#fff'
+            overlayBackground: '#fff',
+            height: parseInt($('#gallery').css('height')),
+            wait: true
         });
         Galleria.run('#galleria-soss');
+        Galleria.run('#galleria-cape');
+        Galleria.run('#galleria-boulders');
+        Galleria.run('#galleria-dune-star');
+        Galleria.run('#galleria-swakop');
+        Galleria.run('#galleria-walvis');
+        Galleria.run('#galleria-etjo');
+        Galleria.run('#galleria-windhoek');
+        Galleria.run('#galleria-fransch');
     }());
 
 })();

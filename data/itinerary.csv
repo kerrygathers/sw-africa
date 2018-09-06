@@ -1,10 +1,12 @@
-﻿site,place,country,aug,type,lat,lon,,
-Kloof Street,Cape Town,South Africa,3,Point,-33.932275,18.4074013,,
-Ashley &amp; Sam's,Windhoek,Namibia,6,Point,-22.569843,17.0758172,,
-Weltevrede Guest Farm,Sossusvlei,Namibia,9,Point,-24.177695,15.9798687,,
-Dune Star Camp,Namib Desert,Namibia,10,Point,-24.102452,15.5545123,,
-Swakopmund,Erongo,Namibia,11,Point,-22.637733,14.5273671,,
-Sossusvlei,Namib-Naukluft National Park,Namibia,12,Point,-24.732995,15.311809,,
-Vingerklip Lodge,Vingerklip,Namibia,13,Point,-20.392425,15.4225338,,
-Ashley & Sam's,Windhoek,Namibia,14,Point,-22.569843,17.0758172,,
-La Provence Cottages,Franschhoek,South Africa,17,Point,-33.895136,19.101916,
+﻿site,place,country,aug,type,lat,lon
+Kloof Street,Cape Town,South Africa,3,Point,-33.932275,18.4074013
+Ashley &amp; Sam's,Windhoek,Namibia,6,Point,-22.569843,17.0758172
+Weltevrede Guest Farm,Namib Desert,Namibia,9,Point,-24.177695,15.9798687
+Dune Star Camp,Namib Desert,Namibia,10,Point,-24.102452,15.5545123
+Swakopmund,Erongo,Namibia,11,Point,-22.637733,14.5273671
+Sossusvlei,Namib-Naukluft National Park,Namibia,12,Point,-24.732995,15.311809
+La Provence Cottages,Franschhoek,South Africa,17,Point,-33.895136,19.101916
+Boulders Beach,Simon's Town,South Africa,4,Point,-34.19599,18.450407
+Okapuka Ranch,Dobra,Namibia,8,Point,-22.3028732,17.065873
+Mount Etjo Lodge,Mount Etjo,Namibia,13,Point,-21.025323,16.45638
+Walvis Bay,Erongo,Namibia,11,Point,-22.87849,14.446064
