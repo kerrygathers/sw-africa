@@ -9,6 +9,7 @@ body {
 
 p {
     font-family: 'Alegreya Sans', sans-serif;
+    font-size: 16px;
 }
 
 .dunes {
@@ -73,7 +74,10 @@ td {
     top: 130px;
     width: 28%;
     z-index: 1000;
-    display: none;
+}
+
+.icon:hover {
+    opacity: .7;
 }
 
 /* TOOLTIP */
@@ -81,6 +85,19 @@ td {
 .leaflet-tooltip {
     font-family: 'Alegreya Sans', sans-serif;
     border-radius: 4px;
+}
+
+.leaflet-tooltip-container {
+    display: none;
+}
+
+.tooltip-title {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.tooltip-sub {
+    font-size: 16px;
 }
 
 /* SITE MEDIA DIVS */
@@ -104,11 +121,12 @@ td {
 .site-title {
     font-size: 38px;
     font-weight: bold;
+    line-height: 38px;
     padding: 7px 0;
 }
 
 .site-subtitle {
-    font-size: 20px;
+    font-size: 22px;
     padding: 7px 0;
 }
 
@@ -136,4 +154,16 @@ td {
 
 body .galleria-lightbox-shadow {
     background-color: #fff;
+}
+
+@media screen and (max-width: 700px) {
+    .swa {
+        font-size: 42px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .swa {
+        font-size: 35px;
+    }
 }

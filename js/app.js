@@ -34,7 +34,7 @@
 
                 var icon = L.icon({
                     iconUrl: "./icons/site.svg",
-                    iconSize: [20, 20],
+                    iconSize: [18, 18],
                     popupAnchor: [-22, -22],
                     className: "icon"
                 });
@@ -45,8 +45,8 @@
             },
             onEachFeature: function (feature, layer) {
 
-                layer.bindTooltip("<h3>" + feature.properties.site + "</h3>" +
-                    "<p>" + feature.properties.country + "</p>");
+                layer.bindTooltip("<p class='tooltip-title'>" + feature.properties.site + "</p>" +
+                    "<p class='tooltip-sub'>" + feature.properties.place + ", " + feature.properties.country + "</p>");
             }
         }
 
@@ -68,8 +68,8 @@
                 $('.windhoek').show(250);
             }
 
-            if (props.site == 'Kloof Street') {
-                $('.cape').show(250);
+            if (props.site == 'Cape Town') {
+                $('.cape-town').show(250);
             }
 
             if (props.site == 'Dune Star Camp') {
@@ -120,6 +120,17 @@
 
         })
     }
+
+
+    /* CLOSE SITE MEDIA ON CLICK AWAY */
+
+    $(map).on('click', function (e) {
+        var markerClick = $('.icon');
+        var siteMedia = $('.site-media');
+        if (!markerClick.is(e.target) && markerClick.has(e.target).length === 0) {
+            siteMedia.hide();
+        }
+    });
 
     /* GALLERIA */
 
