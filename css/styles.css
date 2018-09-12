@@ -10,6 +10,7 @@ body {
 p {
     font-family: 'Alegreya Sans', sans-serif;
     font-size: 16px;
+    line-height: 20px;
 }
 
 .dunes {
@@ -94,10 +95,13 @@ td {
 .tooltip-title {
     font-weight: bold;
     font-size: 20px;
+    line-height: 30px;
+    padding-bottom: 4px;
 }
 
 .tooltip-sub {
     font-size: 16px;
+    padding-bottom: 4px;
 }
 
 /* SITE MEDIA DIVS */
@@ -115,6 +119,8 @@ td {
     top: 176px;
     left: 10px;
     width: 28%;
+    max-height: 55%;
+    overflow: auto;
     z-index: 1000;
 }
 
@@ -154,6 +160,14 @@ td {
 
 body .galleria-lightbox-shadow {
     background-color: #fff;
+}
+
+.galleria-theme-classic .galleria-thumbnails .galleria-image {
+    border: 1px solid #fff;
+}
+
+.galleria-theme-classic {
+    font-family: 'Alegreya Sans', sans-serif;
 }
 
 @media screen and (max-width: 700px) {

@@ -68,6 +68,10 @@
                 $('.windhoek').show(250);
             }
 
+            if (props.site == "Okapuka Ranch") {
+                $('.okapuka').show(250);
+            }
+
             if (props.site == 'Cape Town') {
                 $('.cape-town').show(250);
             }
@@ -152,6 +156,7 @@
         Galleria.run('#galleria-walvis');
         Galleria.run('#galleria-etjo');
         Galleria.run('#galleria-windhoek');
+        Galleria.run('#galleria-okapuka');
         Galleria.run('#galleria-fransch');
     }());
 
