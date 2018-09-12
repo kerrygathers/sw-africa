@@ -1,2 +1,2 @@
-# vacay-countdown
-Counting down to a vacation in Namibia and South Africa
+# sw-africa
+A photo album mapped to Hallie and Kerry's trip to southwest Africa in August of 2018.
