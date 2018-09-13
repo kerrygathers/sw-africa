@@ -65,52 +65,62 @@
 
         tripStops.on('click', function (e) {
 
-            $('.map-btn').show(250);
+            $('.map-btn').fadeIn(200);
 
             var props = e.layer.feature.properties;
 
             if (props.site == "Ashley &amp; Sam's") {
-                $('.windhoek').show(250);
+                Galleria.run('#galleria-windhoek');
+                $('.windhoek').fadeIn(200);
             }
 
             if (props.site == "Okapuka Ranch") {
-                $('.okapuka').show(250);
+                Galleria.run('#galleria-okapuka');
+                $('.okapuka').fadeIn(200);
             }
 
             if (props.site == 'Cape Town') {
-                $('.cape-town').show(250);
+                Galleria.run('#galleria-cape');
+                $('.cape-town').fadeIn(200);
             }
 
             if (props.site == 'Dune Star Camp') {
-                $('.dune-star').show(250);
+                Galleria.run('#galleria-dune-star');
+                $('.dune-star').fadeIn(200);
             }
 
             if (props.site == 'Swakopmund') {
-                $('.swakop').show(250);
+                Galleria.run('#galleria-swakop');
+                $('.swakop').fadeIn(200);
             }
 
             if (props.site == 'Walvis Bay') {
-                $('.walvis').show(250);
+                Galleria.run('#galleria-walvis');
+                $('.walvis').fadeIn(200);
             }
 
             if (props.site == 'Sossusvlei') {
-                $('.sossusvlei').show(250);
+                Galleria.run('#galleria-soss');
+                $('.sossusvlei').fadeIn(200);  
             }
 
             if (props.site == 'Boulders Beach') {
-                $('.boulders').show(250);
+                Galleria.run('#galleria-boulders');
+                $('.boulders').fadeIn(200);
             }
 
             if (props.site == 'Sossusvlei') {
-                $('.sossusvlei').show(250);
+                $('.sossusvlei').fadeIn(200);
             }
 
             if (props.site == 'Mount Etjo Lodge') {
-                $('.etjo').show(250);
+                Galleria.run('#galleria-etjo');
+                $('.etjo').fadeIn(200);
             }
 
             if (props.site == 'La Provence Cottages') {
-                $('.fransch').show(250);
+                Galleria.run('#galleria-fransch');
+                $('.fransch').fadeIn(200);
             }
 
             // populate HTML elements with relevant info
@@ -144,7 +154,7 @@
             siteMedia.hide();
         }
     });
-
+    
     /* GALLERIA */
 
     (function () {
@@ -157,16 +167,7 @@
             height: parseInt($('#gallery').css('height')),
             wait: true
         });
-        Galleria.run('#galleria-soss');
-        Galleria.run('#galleria-cape');
-        Galleria.run('#galleria-boulders');
-        Galleria.run('#galleria-dune-star');
-        Galleria.run('#galleria-swakop');
-        Galleria.run('#galleria-walvis');
-        Galleria.run('#galleria-etjo');
-        Galleria.run('#galleria-windhoek');
-        Galleria.run('#galleria-okapuka');
-        Galleria.run('#galleria-fransch');
+        
     }());
 
 })();
