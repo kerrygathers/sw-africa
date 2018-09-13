@@ -73,12 +73,29 @@ td {
     position: absolute;
     left: 10px;
     top: 130px;
-    width: 28%;
+    width: 33%;
     z-index: 1000;
 }
 
 .icon:hover {
     opacity: .7;
+}
+
+/* INTRO */
+
+.intro {
+    position: absolute;
+    z-index: 1000;
+    left: 10px;
+    top: 130px;
+    width: 33%;
+    max-height: 60%;
+    overflow: auto;
+}
+
+.intro-img {
+    border-radius: 4px;
+    margin: 16px 0 6px 0;
 }
 
 /* TOOLTIP */
@@ -118,7 +135,7 @@ td {
     position: absolute;
     top: 176px;
     left: 10px;
-    width: 28%;
+    width: 33%;
     max-height: 55%;
     overflow: auto;
     z-index: 1000;
@@ -145,10 +162,10 @@ td {
 .galleria {
     position: absolute;
     z-index: 1000;
-    margin-left: 30%;
+    margin-left: 35%;
     margin-right: auto;
     top: 130px;
-    width: 69%;
+    width: 64%;
     height: 75%;
     /*display: none;*/
 }

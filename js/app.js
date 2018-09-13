@@ -47,6 +47,11 @@
 
                 layer.bindTooltip("<p class='tooltip-title'>" + feature.properties.site + "</p>" +
                     "<p class='tooltip-sub'>" + feature.properties.place + ", " + feature.properties.country + "</p>");
+
+                /* Close intro box on marker click */
+                layer.on({
+                    click: closeIntro
+                });
             }
         }
 
@@ -121,10 +126,14 @@
                 $('.map-btn').hide();
             });
 
-
         })
     }
 
+    /* CLOSE INTRO BOX ON INITIAL MARKER CLICK */
+
+    function closeIntro(e) {
+        $('.intro').hide();
+    }
 
     /* CLOSE SITE MEDIA ON CLICK AWAY */
 
