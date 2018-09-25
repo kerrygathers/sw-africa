@@ -2,7 +2,7 @@
 
     var map = L.map('map', {
         zoomSnap: .1,
-        center: [-27.5, 16.5],
+        center: [-27.5, 11.5],
         zoom: 5.4,
         minZoom: 4
     });
@@ -89,6 +89,11 @@
                 $('.dune-star').fadeIn(200);
             }
 
+            if (props.site == 'Solitaire') {
+                Galleria.run('#galleria-solitaire');
+                $('.solitaire').fadeIn(200);
+            }
+
             if (props.site == 'Swakopmund') {
                 Galleria.run('#galleria-swakop');
                 $('.swakop').fadeIn(200);
@@ -101,7 +106,7 @@
 
             if (props.site == 'Sossusvlei') {
                 Galleria.run('#galleria-soss');
-                $('.sossusvlei').fadeIn(200);  
+                $('.sossusvlei').fadeIn(200);
             }
 
             if (props.site == 'Boulders Beach') {
@@ -136,6 +141,11 @@
                 $('.map-btn').hide();
             });
 
+            $('.map-btn-2').click(function () {
+                $('.site-media').hide();
+                $('.map-btn').hide();
+            });
+
         })
     }
 
@@ -154,7 +164,7 @@
             siteMedia.hide();
         }
     });
-    
+
     /* GALLERIA */
 
     (function () {
@@ -167,7 +177,7 @@
             height: parseInt($('#gallery').css('height')),
             wait: true
         });
-        
+
     }());
 
 })();

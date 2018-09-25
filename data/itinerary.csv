@@ -1,8 +1,9 @@
 ﻿site,place,country,aug,type,lat,lon
 Cape Town,Western Cape,South Africa,3,Point,-33.932275,18.4074013
 Ashley &amp; Sam's,Windhoek,Namibia,6,Point,-22.569843,17.0758172
-Weltevrede Guest Farm,Namib Desert,Namibia,9,Point,-24.177695,15.9798687
-Dune Star Camp,Namib Desert,Namibia,10,Point,-24.102452,15.5545123
+Weltevrede Guest Farm,Khomas Region,Namibia,9,Point,-24.177695,15.9798687
+Solitaire,Khomas Region,Namibia,,Point,-23.893629,16.005362 
+Dune Star Camp,Khomas Region,Namibia,10,Point,-24.102452,15.5545123
 Swakopmund,Erongo,Namibia,11,Point,-22.637733,14.5273671
 Sossusvlei,Namib-Naukluft National Park,Namibia,12,Point,-24.732995,15.311809
 La Provence Cottages,Franschhoek,South Africa,17,Point,-33.895136,19.101916

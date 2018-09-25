@@ -77,6 +77,10 @@ td {
     z-index: 1000;
 }
 
+.map-span-large {}
+
+.map-span-small {}
+
 .icon:hover {
     opacity: .7;
 }
@@ -196,5 +200,38 @@ body .galleria-lightbox-shadow {
 @media screen and (max-width: 600px) {
     .swa {
         font-size: 35px;
+    }
+}
+
+@media screen and (max-width: 1025px) {
+    .galleria {
+        margin-left: 60px;
+        width: 88%;
+        height: 50%;
+    }
+
+    .map-span-large {
+        display: none;
+    }
+
+    .map-btn {
+        left: 11px;
+        top: auto;
+        bottom: 80px;
+        width: 32px;
+        height: 32px;
+        font-size: 12px;
+        padding: 0;
+    }
+
+    .info-modal {
+        top: 70%;
+        width: 88%;
+        left: 60px;
+        max-height: 220px;
+    }
+
+    .intro {
+        width: 55%;
     }
 }
