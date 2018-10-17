@@ -13,6 +13,15 @@ p {
     line-height: 20px;
 }
 
+a {
+    color: #003580;
+    font-weight: bold;
+}
+
+a:hover {
+    opacity: .75;
+}
+
 .dunes {
     position: absolute;
     background-image: url('../images/dark-desert.jpg');
