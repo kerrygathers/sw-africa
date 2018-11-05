@@ -105,7 +105,9 @@
             }
 
             if (props.site == 'Sossusvlei') {
-                Galleria.run('#galleria-soss');
+                Galleria.run('#galleria-soss', {
+                flickr: 'set:72157675291676958', 
+                });
                 $('.sossusvlei').fadeIn(200);
             }
 
@@ -114,9 +116,6 @@
                 $('.boulders').fadeIn(200);
             }
 
-            if (props.site == 'Sossusvlei') {
-                $('.sossusvlei').fadeIn(200);
-            }
 
             if (props.site == 'Mount Etjo Lodge') {
                 Galleria.run('#galleria-etjo');
@@ -124,7 +123,9 @@
             }
 
             if (props.site == 'La Provence Cottages') {
-                Galleria.run('#galleria-fransch');
+                Galleria.run('#galleria-fransch', {
+                flickr: 'set:72157703110840514',    
+                });
                 $('.fransch').fadeIn(200);
             }
 
