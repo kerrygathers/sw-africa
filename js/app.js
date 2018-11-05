@@ -70,37 +70,58 @@
             var props = e.layer.feature.properties;
 
             if (props.site == "Ashley &amp; Sam's") {
-                Galleria.run('#galleria-windhoek');
+                Galleria.run('#galleria-windhoek', {
+                    flickr: 'set:72157703233849475',
+                });
                 $('.windhoek').fadeIn(200);
             }
 
             if (props.site == "Okapuka Ranch") {
-                Galleria.run('#galleria-okapuka');
+                Galleria.run('#galleria-okapuka', {
+                    flickr: 'set:72157697365735030',
+                });
                 $('.okapuka').fadeIn(200);
+            }
+            
+            if (props.site == "Weltevrede Guest Farm") {
+                Galleria.run('#galleria-weltevrede', {
+                    flickr: 'set:72157697366112290',
+                });
+                $('.weltevrede').fadeIn(200);
             }
 
             if (props.site == 'Cape Town') {
-                Galleria.run('#galleria-cape');
+                Galleria.run('#galleria-cape', {
+                    flickr: 'set:72157703111267474',
+                });
                 $('.cape-town').fadeIn(200);
             }
 
             if (props.site == 'Dune Star Camp') {
-                Galleria.run('#galleria-dune-star');
+                Galleria.run('#galleria-dune-star', {
+                    flickr: 'set:72157703231050105',
+                });
                 $('.dune-star').fadeIn(200);
             }
 
             if (props.site == 'Solitaire') {
-                Galleria.run('#galleria-solitaire');
+                Galleria.run('#galleria-solitaire', {
+                    flickr: 'set:72157703113559514',
+                });
                 $('.solitaire').fadeIn(200);
             }
 
             if (props.site == 'Swakopmund') {
-                Galleria.run('#galleria-swakop');
+                Galleria.run('#galleria-swakop', {
+                    flickr: 'set:72157697365841520',
+                });
                 $('.swakop').fadeIn(200);
             }
 
             if (props.site == 'Walvis Bay') {
-                Galleria.run('#galleria-walvis');
+                Galleria.run('#galleria-walvis', {
+                    flickr: 'set:72157703233356995',
+                });
                 $('.walvis').fadeIn(200);
             }
 
@@ -112,19 +133,22 @@
             }
 
             if (props.site == 'Boulders Beach') {
-                Galleria.run('#galleria-boulders');
+                Galleria.run('#galleria-boulders', {
+                    flickr: 'set:72157697363531510',
+                });
                 $('.boulders').fadeIn(200);
             }
 
-
             if (props.site == 'Mount Etjo Lodge') {
-                Galleria.run('#galleria-etjo');
+                Galleria.run('#galleria-etjo', {
+                    flickr: 'set:72157675293904838',   
+                });
                 $('.etjo').fadeIn(200);
             }
 
             if (props.site == 'La Provence Cottages') {
                 Galleria.run('#galleria-fransch', {
-                flickr: 'set:72157703110840514',    
+                    flickr: 'set:72157703110840514',    
                 });
                 $('.fransch').fadeIn(200);
             }
@@ -176,7 +200,10 @@
             lightbox: true,
             overlayBackground: '#fff',
             height: parseInt($('#gallery').css('height')),
-            wait: true
+            wait: true,
+            clicknext: false,
+            imagePan: false,
+            showInfo: true
         });
 
     }());
