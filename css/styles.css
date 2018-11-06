@@ -202,6 +202,7 @@ body .galleria-lightbox-shadow {
 
 .galleria-theme-classic .galleria-info {
     width: auto;
+    max-width: 315px;
 }
 
 .galleria-theme-classic .galleria-info-link {
@@ -253,6 +254,16 @@ body .galleria-lightbox-shadow {
     }
 }
 
+@media screen and (max-width: 530px) {
+    .info-modal {
+        max-width: 78%;
+    }
+    
+    .galleria {
+        max-width: 78%;
+    }
+}
+
 @media screen and (max-width: 1025px) {
     .galleria {
         margin-left: 60px;
@@ -278,7 +289,7 @@ body .galleria-lightbox-shadow {
         top: 70%;
         width: 88%;
         left: 60px;
-        max-height: 220px;
+        max-height: 200px;
     }
 
     .intro {
