@@ -200,6 +200,10 @@ body .galleria-lightbox-shadow {
     font-family: 'Alegreya Sans', sans-serif;
 }
 
+.galleria-theme-classic .galleria-info {
+    width: auto;
+}
+
 .galleria-theme-classic .galleria-info-link {
     background-color: #003580;
     border-radius: 4px;
@@ -209,20 +213,28 @@ body .galleria-lightbox-shadow {
     background-color: #003580;
     border-radius: 4px;
     margin: 0;
-    padding: 8px 20px 1px 20px;
+    padding: 8px 23px 1px 20px;
+    width: auto;
+    text-align: left;
 }
 
 .galleria-theme-classic .galleria-info-description {
     font-family: 'Alegreya Sans', sans-serif;
     font-size: 16px;
+    font-weight: normal;
     margin: 0;
     padding: 0;
+    width: auto;
+    text-align: left;
 }
 
 .galleria-theme-classic .galleria-info-title {
     background-color: #003580;
     font-family: 'Alegreya Sans', sans-serif;
     font-size: 16px;
+    font-weight: normal;
+    width: auto;
+    text-align: left;
 }
 
 .galleria-theme-classic .galleria-counter {
