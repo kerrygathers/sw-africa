@@ -164,11 +164,13 @@
             $('.map-btn').click(function () {
                 $('.site-media').hide();
                 $('.map-btn').hide();
+                $('.intro').fadeIn(200);
             });
 
             $('.map-btn-2').click(function () {
                 $('.site-media').hide();
                 $('.map-btn').hide();
+                $('.intro').fadeIn(200);
             });
 
         })
